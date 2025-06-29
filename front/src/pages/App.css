@@ -21,7 +21,12 @@
   margin-top: 1rem;
 }
 
-/* Logo animacja (opcjonalnie) */
+.main-logo {
+  width: 150px;
+  margin-bottom: 1rem;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
