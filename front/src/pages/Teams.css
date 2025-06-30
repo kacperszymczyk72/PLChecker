@@ -1,9 +1,16 @@
+.teams-title {
+  text-align: center;
+  margin-top: 2rem;
+}
+
 .teams-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 kolumny na desktopie */
-  gap: 1.5rem;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5rem; 
   padding: 2rem;
-  justify-items: center;
+  margin: 0 auto;
+  max-width: 1400px; 
+  justify-content: center; 
 }
 
 @media (max-width: 1200px) {
@@ -22,26 +29,4 @@
   .teams-container {
     grid-template-columns: 1fr;
   }
-}
-
-.team-card {
-  background-color: #1e1d81;
-  color: white;
-  padding: 1rem;
-  border-radius: 8px;
-  text-align: center;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s;
-  width: 100%;
-  max-width: 250px; /* mniejsze kafelki dla lepszej siatki */
-}
-
-.team-card:hover {
-  transform: translateY(-5px);
-}
-
-.team-logo {
-  width: 80px; /* delikatnie mniejsze logo dla ładniejszego wyglądu */
-  height: auto;
-  margin-bottom: 1rem;
 }

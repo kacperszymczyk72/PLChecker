@@ -6,7 +6,7 @@ import logo from "../assets/logo biale.png"
 function Navbar() {
   return (
     <nav className="navbar">
-    <div className="logo-container">
+    <div className="logo-con">
       <Link to="/">
         <img src={logo} className="App-logo" alt="logo" />
       </Link>

@@ -6,18 +6,18 @@ type TeamProps = {
   id: number;
   name: string;
   logo: string;
-  stadium: string;
-  city: string;
 };
 
-function TeamCard({ id, name, logo, stadium, city }: TeamProps) {
+function TeamCard({ id, name, logo }: TeamProps) {
   return (
     <Link to={`/teams/${id}`} className="team-link">
       <div className="team-card">
-        <img src={logo} alt={name} className="team-logo" />
-        <h2>{name}</h2>
-        <p><strong>Stadion:</strong> {stadium}</p>
-        <p><strong>Miasto:</strong> {city}</p>
+        <div className="logo-container">
+          <img src={logo} alt={name} className="team-logo" />
+        </div>
+        <div className="team-info">
+          <h2 className="team-name">{name}</h2>
+        </div>
       </div>
     </Link>
   );

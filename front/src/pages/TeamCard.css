@@ -4,23 +4,76 @@
 }
 
 .team-card {
-  background-color: #2e6dbe;
+  background-color: #0d2b57;
   color: white;
-  padding: 1rem;
-  border-radius: 8px;
-  width: 220px; /* <= ustalamy szerokość kafelka */
-  text-align: center;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s, box-shadow 0.3s;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  width: 280px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .team-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.3);
+}
+
+.logo-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .team-logo {
-  width: 80px;
-  height: auto;
-  margin-bottom: 1rem;
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+  transition: transform 0.3s;
+}
+
+.team-card:hover .team-logo {
+  transform: scale(1.05);
+}
+
+.team-info {
+  padding: 20px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.team-name {
+  margin: 0 0 10px 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 600px) {
+  .team-card {
+    width: 100%;
+    max-width: 240px;
+    height: 280px;
+  }
+  
+  .team-logo {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .team-name {
+    font-size: 1.2rem;
+  }
 }

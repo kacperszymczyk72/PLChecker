@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Teams from "./Teams";
 import About from "./About";
 import Contact from "./Contact";
-import TeamDetail from "./TeamDetail"; // <-- dodaj ten import
+import TeamDetail from "./CardDetail"; 
 import logo from "../assets/logo.png";
 import "./App.css";
 import Footer from "../components/Footer";
