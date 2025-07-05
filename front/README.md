@@ -1,46 +1,57 @@
-# Getting Started with Create React App
+## Live Preview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplikacja online:
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Premier League Checker ⚽
 
-### `npm start`
+Premier League Checker to jednostronicowa aplikacja (SPA) napisana w React + TypeScript, umożliwiająca przeglądanie informacji o drużynach angielskiej Premier League. Projekt jest w pełni responsywny, interaktywny i łatwy w rozbudowie.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Opis działania aplikacji
+Główne funkcje, które może użytkownik:
+- przeglądać drużyny w formie kart z herbem i nazwą klubu,
+- sprawdzać szczegóły każdej drużyny (miasto, stadion, rok założenia, pojemność stadionu) po kliknięciu na kartę,
+- wygodnie używać aplikacji na różnych urządzeniach dzięki responsywnemu designowi.
+- korzystać z formularza kontaktowego z walidacją,
 
-### `npm test`
+Aplikacja składa się z czterech zakładek:
+- Strona główna – wprowadzenie do aplikacji, logo i krótki opis funkcji.
+- Drużyny – lista drużyn Premier League w formie kart. Kliknięcie na kartę przenosi do szczegółowego profilu drużyny.
+- O projekcie – informacje o zastosowanych technologiach, źródłach danych oraz opis funkcjonalności aplikacji.
+- Kontakt – formularz kontaktowy z walidacją (wymagane wszystkie pola, poprawny email).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologie
 
-### `npm run build`
+- React 18 + TypeScript
+- React Router 6 (routing i podstrony)
+- useState, useEffect (hooki Reacta)
+- API-Football (w wersji online)
+- Własne pliki CSS (responsywny design)
+- Flexbox i CSS Grid (layout kafelków)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Instalacja i uruchomienie
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Klonowanie repozytorium
+```bash
+git clone https://github.com/kacperszymczyk72/PLChecker.git
+cd Test
+cd front
+```
 
-### `npm run eject`
+### Instalacja zależności
+```bash
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Uruchamianie aplikacji
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
