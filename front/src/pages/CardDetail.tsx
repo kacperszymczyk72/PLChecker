@@ -1,4 +1,4 @@
-/* Korzysta z API 
+/* Korzysta z API */
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import "./CardDetail.css";
@@ -74,9 +74,9 @@ function CardDetail() {
 }
 
 export default CardDetail;
- */
+ /* */
 
-/* Bez API */
+/* Bez API 
 import React from "react";
 import { useParams } from "react-router-dom";
 import "./CardDetail.css";
@@ -169,4 +169,4 @@ function CardDetail() {
 
 export default CardDetail;
 
-/* */
+ */
