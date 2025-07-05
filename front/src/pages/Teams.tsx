@@ -1,4 +1,4 @@
-/*
+/* Korzysta z API 
 import React, { useEffect, useState } from "react";
 import TeamCard from "./TeamCard";
 import "./Teams.css";
@@ -47,7 +47,7 @@ function Teams() {
 }
 
 export default Teams;
-*/
+ */
 
 /* Bez requestów API */
 import React from "react";
@@ -55,70 +55,6 @@ import TeamCard from "./TeamCard";
 import "./Teams.css";
 
 const exampleTeams = [
-  {
-    id: 1,
-    name: "Arsenal",
-    logo: "https://media-4.api-sports.io/football/teams/42.png",
-    stadium: "Emirates Stadium",
-    city: "London",
-    type: "type1"
-  },
-  {
-    id: 2,
-    name: "Manchester City",
-    logo: "https://media-4.api-sports.io/football/teams/50.png",
-    stadium: "Etihad Stadium",
-    city: "Manchester",
-    type: "type2"
-  },
-  {
-    id: 3,
-    name: "Liverpool",
-    logo: "https://media-4.api-sports.io/football/teams/40.png",
-    stadium: "Anfield",
-    city: "Liverpool",
-    type: "type3"
-  },
-  {
-    id: 4,
-    name: "Chelsea",
-    logo: "https://media-4.api-sports.io/football/teams/49.png",
-    stadium: "Stamford Bridge",
-    city: "London",
-    type: "type4"
-  },
-  {
-    id: 1,
-    name: "Arsenal",
-    logo: "https://media-4.api-sports.io/football/teams/42.png",
-    stadium: "Emirates Stadium",
-    city: "London",
-    type: "type1" 
-  },
-  {
-    id: 2,
-    name: "Manchester City",
-    logo: "https://media-4.api-sports.io/football/teams/50.png",
-    stadium: "Etihad Stadium",
-    city: "Manchester",
-    type: "type2"
-  },
-  {
-    id: 3,
-    name: "Liverpool",
-    logo: "https://media-4.api-sports.io/football/teams/40.png",
-    stadium: "Anfield",
-    city: "Liverpool",
-    type: "type3"
-  },
-  {
-    id: 4,
-    name: "Chelsea",
-    logo: "https://media-4.api-sports.io/football/teams/49.png",
-    stadium: "Stamford Bridge",
-    city: "London",
-    type: "type4"
-  },
   {
     id: 1,
     name: "Arsenal",
@@ -169,3 +105,4 @@ function Teams() {
 }
 
 export default Teams;
+/* */

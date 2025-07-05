@@ -4,7 +4,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer className="footer">
-      <p>&copy; {new Date().getFullYear()} Football Team Checker</p>
+      <p>&copy; {new Date().getFullYear()} Premier League Checker</p>
     </footer>
   );
 }
