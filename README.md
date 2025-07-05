@@ -1,6 +1,6 @@
 ## Live Preview
 
-Aplikację online:
+Aplikacja online:
 
 ---
 
@@ -18,28 +18,28 @@ Główne funkcje, które może użytkownik:
 - korzystać z formularza kontaktowego z walidacją,
 
 Aplikacja składa się z czterech zakładek:
-- **Strona główna** – wprowadzenie do aplikacji, logo i krótki opis funkcji.
-- **Drużyny** – lista drużyn Premier League w formie kart. Kliknięcie na kartę przenosi do szczegółowego profilu drużyny.
-- **O projekcie** – informacje o zastosowanych technologiach, źródłach danych oraz opis funkcjonalności aplikacji.
-- **Kontakt** – formularz kontaktowy z walidacją (wymagane wszystkie pola, poprawny email).
+- Strona główna – wprowadzenie do aplikacji, logo i krótki opis funkcji.
+- Drużyny – lista drużyn Premier League w formie kart. Kliknięcie na kartę przenosi do szczegółowego profilu drużyny.
+- O projekcie – informacje o zastosowanych technologiach, źródłach danych oraz opis funkcjonalności aplikacji.
+- Kontakt – formularz kontaktowy z walidacją (wymagane wszystkie pola, poprawny email).
 
-## 🏗️ Technologie
+## Technologie
 
-- **React 18** + **TypeScript**
-- **React Router 6** (routing i podstrony)
-- **useState**, **useEffect** (hooki Reacta)
+- React 18 + TypeScript
+- React Router 6 (routing i podstrony)
+- useState, useEffect (hooki Reacta)
 - API-Football (w wersji online)
 - Własne pliki CSS (responsywny design)
 - Flexbox i CSS Grid (layout kafelków)
 
 ---
 
-## 🌐 Instalacja i uruchomienie
+## Instalacja i uruchomienie
 
 ### Klonowanie repozytorium
 ```bash
 git clone https://github.com/kacperszymczyk72/PLChecker.git
-cd Test
+cd PLChecker
 cd front
 ```
 

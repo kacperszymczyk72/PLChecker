@@ -92,17 +92,30 @@
   font-style: italic;
 }
 
-/* Responsywność */
 @media (max-width: 768px) {
   .about-page {
     padding: 1rem;
   }
-  
+
   .about-header h1 {
     font-size: 2rem;
   }
-  
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .description,
+  .tech-list,
+  .features-list {
+    font-size: 1rem;
+  }
+
   .about-section {
     padding: 1rem;
+  }
+
+  .about-section h2 {
+    font-size: 1.5rem;
   }
 }
