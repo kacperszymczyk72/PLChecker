@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/PLChecker/static/css/main.639f8426.css",
+    "main.js": "/PLChecker/static/js/main.06c65e50.js",
+    "static/js/453.c2ea0d57.chunk.js": "/PLChecker/static/js/453.c2ea0d57.chunk.js",
+    "static/media/logo.png": "/PLChecker/static/media/logo.d82eb5c81ab171bbdae3.png",
+    "static/media/logo biale.png": "/PLChecker/static/media/logo biale.843937fa94e386f707d3.png",
+    "index.html": "/PLChecker/index.html",
+    "main.639f8426.css.map": "/PLChecker/static/css/main.639f8426.css.map",
+    "main.06c65e50.js.map": "/PLChecker/static/js/main.06c65e50.js.map",
+    "453.c2ea0d57.chunk.js.map": "/PLChecker/static/js/453.c2ea0d57.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.639f8426.css",
+    "static/js/main.06c65e50.js"
+  ]
+}
