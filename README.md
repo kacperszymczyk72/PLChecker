@@ -39,7 +39,7 @@ Aplikacja składa się z czterech zakładek:
 ### Klonowanie repozytorium
 ```bash
 git clone https://github.com/kacperszymczyk72/PLChecker.git
-cd PLChecker
+cd Test
 cd front
 ```
 

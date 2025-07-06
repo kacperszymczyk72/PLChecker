@@ -1,4 +1,4 @@
-/* Korzysta z API 
+/* Korzysta z API */
 import React, { useEffect, useState } from "react";
 import TeamCard from "./TeamCard";
 import "./Teams.css";
@@ -47,9 +47,9 @@ function Teams() {
 }
 
 export default Teams;
-*/
 
-// Bez requestów API 
+
+/* Bez requestów API 
 import React from "react";
 import TeamCard from "./TeamCard";
 import "./Teams.css";
@@ -105,3 +105,4 @@ function Teams() {
 }
 
 export default Teams;
+*/
