@@ -17,7 +17,6 @@
   flex-wrap: wrap;
 }
 
-/* Lewa kolumna - Dane kontaktowe */
 .contact-info {
   flex: 1;
   min-width: 300px;
@@ -40,7 +39,6 @@
   font-size: 1.1rem;
 }
 
-/* Prawa kolumna - Formularz */
 .contact-form {
   flex: 2;
   min-width: 400px;
@@ -100,7 +98,6 @@
   font-size: 0.95rem;
   margin-top: 5px;
 }
-
 
 .submit-btn:hover {
   background-color: #1a3e72;

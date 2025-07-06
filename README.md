@@ -38,9 +38,8 @@ Aplikacja składa się z czterech zakładek:
 
 ### Klonowanie repozytorium
 ```bash
-git clone https://github.com/kacperszymczyk72/PLChecker.git
+git clone git@github.com:kacperszymczyk72/kacperszymczyk72.github.io.git
 cd Test
-cd front
 ```
 
 ### Instalacja zależności
