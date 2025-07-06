@@ -39,7 +39,7 @@ Aplikacja składa się z czterech zakładek:
 ### Klonowanie repozytorium
 ```bash
 git clone git@github.com:kacperszymczyk72/kacperszymczyk72.github.io.git
-cd Test
+cd kacperszymczyk72.github.io
 ```
 
 ### Instalacja zależności
